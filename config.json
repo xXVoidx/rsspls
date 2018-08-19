@@ -1,0 +1,55 @@
+{
+  "logging": {
+    "logDates": true,
+    "discordChannelLog": "",
+    "showLinkErrs": true,
+    "showUnfiltered": true
+  },
+  "botSettings": {
+    "token": "",
+    "enableCommands": true,
+    "prefix": "~",
+    "defaultGame": "",
+    "controllerIds": [],
+    "menuColor": 7833753,
+    "deleteMenus": false,
+    "persistGuildProfiles": true
+  },
+  "feedManagement": {
+    "sqlType": "sqlite3",
+    "databaseName": "rss",
+    "enableBackups": true,
+    "enableRestores": false,
+    "cleanDatabase": false,
+    "maxEntryAge": 14
+  },
+  "feedSettings": {
+    "refreshTimeMinutes": 15,
+    "checkTitles": false,
+    "timezone": "America/New_York",
+    "dateFormat": "ddd, D MMMM YYYY, h:mm A z",
+    "dateLanguage": "en",
+    "dateLanguageList": ["en"],
+    "dateFallback": false,
+    "timeFallback": false,
+    "maxFeeds": 5,
+    "failLimit": 0,
+    "notifyFail": true,
+    "sendOldMessages": false,
+    "defaultMaxAge": 1,
+    "cycleMaxAge": 1,
+    "defaultMessage": ":newspaper:  |  **{title}**\n\n{link}\n\n{subscriptions}",
+    "showRegexErrs": true,
+    "imagePreviews": true,
+    "imageLinksExistence": true,
+    "checkDates": true
+  },
+  "advanced": {
+    "shards": 1,
+    "batchSize": 300,
+    "restrictCookies": false,
+    "restrictWebhooks": false,
+    "processorMethod": "single",
+    "minifyJSON": false
+  }
+}
